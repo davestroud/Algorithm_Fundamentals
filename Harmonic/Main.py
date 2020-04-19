@@ -1,3 +1,10 @@
+# This example define a function named harmonic() that takes an
+# argument n and computes the nth harmomic number. 
+# This code illustrates the typical structure of a Python program
+#       * A sequence of import statement
+#       * A sequence of function definitions
+#       * Arbitrary global code, or the body of the program
+
 #-----------------------------------------------------------------------
 # harmonicf.py
 #-----------------------------------------------------------------------
