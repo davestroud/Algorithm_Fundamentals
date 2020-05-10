@@ -17,7 +17,7 @@ else (it is a leap year)
 import sys
 
 # Accept an int year as a command-line argument. Write True to
-# standard output if the year is a leap year. Otherwise write False.abs($0)
+# standard output if the year is a leap year. Otherwise write False
 
 year = int(sys.argv[1])
 

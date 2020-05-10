@@ -38,8 +38,9 @@ print('Avg # bets: ' + str(bets//trials))
 
 # python gambler.py 10 20 1000
 # 49% wins
-# Avg # bets: #
-#python gambler.py 50 250 100
+# Avg # bets: 99
+
+# python gambler.py 50 250 100
 # 21% wins
 # Avg # bets: 12712
 
