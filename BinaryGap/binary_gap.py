@@ -56,7 +56,7 @@ def solution(N):
 # If it is bigger than the previous biggest one, then bin_max is updated
 # The final return is with bin_max
 
-print(solution(1041))
+# print(solution(1041))
 
 
 # Complexity:
