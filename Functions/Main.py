@@ -39,7 +39,6 @@ can be a very efficient and mathematically-elegant approach to programming.
 
 """
 
-
 def recursion(k):
     if(k > 0):
         result = k + recursion(k - 1)
