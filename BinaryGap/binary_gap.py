@@ -37,10 +37,10 @@
 
 
 def solution(N):
-    bin_rep = str(bin(N))[2:]
-    bin_gap = False
-    bin_max = 0
-    bin_counter = 0
+    bin_rep = str(bin(N))[2:] # Conversion of strings to number for input.
+    bin_gap = False # Initilize to false
+    bin_max = 0 # Initialize bin_max to 0
+    bin_counter = 0 # Initialize bin_counter to 0
     for symbol in bin_rep:
         if symbol == '1':
             if bin_max < bin_counter:
@@ -51,6 +51,10 @@ def solution(N):
             bin_counter += 1
     return bin_max
 
+# Mechanics of the for loop
+# Each time the digit is 1, bin_counter will be updated
+# If it is bigger than the previous biggest one, then bin_max is updated
+# The final return is with bin_max
 
 print(solution(1041))
 
