@@ -27,6 +27,20 @@
 # N is an integer within the range [1..2,147,483,647]. ~ This number
 # represents the maximum positive value for a 32-bit signed binary integer.
 
+# Code Walkthrough
+# Using best programing practices, we will put our algorithm into a function
+# named solution.
+#
+# The bin()method in Python converts and returns the binary equivalent string
+# of a given integer.
+# bin(9) note that we are given a sting that needs to be converted to a number.
+
+
+
+
+
+
+
 
 def solution(N):
     bin_rep = str(bin(N))[2:]
@@ -42,5 +56,6 @@ def solution(N):
         elif bin_gap:
             bin_counter += 1
     return bin_max
+
 
 print(solution(1041))
