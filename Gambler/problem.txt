@@ -1,0 +1,10 @@
+Our next example is representative of a widely used class of programs, where we
+use computers to simulate what might happen in the real world, so that we can
+make informed decisions in all kinds of complicated situations. Suppose a
+gambler makes a series of fair $1 bets, starting with $50, and continue to
+ play until she either goes broke or has $250. What are the chances that she
+ will go home with $250, and how many bets might she expect to make before
+ winning or losing
+
+ It accepts three command-line arguments, the initial stake ($50),
+ the goal amount ($250), and the number of times we want to simulate the game.
