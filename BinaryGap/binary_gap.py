@@ -36,12 +36,6 @@
 # bin(9) note that we are given a sting that needs to be converted to a number.
 
 
-
-
-
-
-
-
 def solution(N):
     bin_rep = str(bin(N))[2:]
     bin_gap = False
@@ -59,3 +53,11 @@ def solution(N):
 
 
 print(solution(1041))
+
+
+# Complexity:
+# Expected worst-case time complexity it O(log(N))
+# Expected worst-case space complexity is O(1)
+
+# Link to understanding control flow of functions:
+# https://introcs.cs.princeton.edu/python/21function/
