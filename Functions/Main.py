@@ -37,6 +37,10 @@ slip into writing a function which never terminates, or one that uses excess
 amounts of memory or processor power. However, when written correctly recursion
 can be a very efficient and mathematically-elegant approach to programming.
 
+In the example below, the function that we have defined calls itself or
+'recurses'. We use the variable k as the data, which decrements (-1) every time
+we recurse. The recursion ends when the condition is not greater than 0 (i.e. 0)
+
 """
 
 def recursion(k):
