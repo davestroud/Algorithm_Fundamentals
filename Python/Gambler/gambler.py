@@ -20,7 +20,7 @@ bets = 0
 wins = 0
 for t in range(trials):
     # Run one experiment
-    cash = stake
+    cash = stake # cash equals stake, which is an input
     while cash > 0 and cash < goal:
         # Simulate one best.
         bets += 1
