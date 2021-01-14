@@ -1,16 +1,13 @@
+/*write a C++ program that outputs the following statement:
+ *** "Hello world, I am ready for C++"
+ */
 #include <iostream>
-#include <vector>
-#include <string>
-
 using namespace std;
+
+int integer = 5150;
 
 int main()
 {
-    vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
-
-    for (const string &word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    cout << "The value of integer is "<<integer<<"\n";
+    return 0;
 }
