@@ -13,4 +13,11 @@ def bubble_sort(array):
 	# sorted
 	for j in range(n - i - 1):
 		if array[j] > array[j + 1]:
-			# 
+			# If the item you're looking at is greater than its
+			# adjacent value, then swap them
+			array[j], array[j + 1] = array[j + 1], array[j]
+
+			# Since you had to swap thwo elements, 
+			# set the 'already_sorted' flag to 'False' so the
+			# algorithm doesn't finish prematurely
+			already_sorted = False
