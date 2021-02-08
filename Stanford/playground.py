@@ -21,3 +21,9 @@ def bubble_sort(array):
 			# set the 'already_sorted' flag to 'False' so the
 			# algorithm doesn't finish prematurely
 			already_sorted = False
+
+	# If there were not swaps during the last interation, 
+	# the array is already sorted, and you can terminate
+	if already_sorted:
+		break 
+	return array
