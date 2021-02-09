@@ -12,7 +12,11 @@ def run_sorting_algorithm(algorithm, array):
 
 	# Execute the code ten different times and return the time
 	# in seconds that each execution took
-	times = repor
+	times = repeat(setup=setup_code, stmt=stmt, repeat=3, number=10)
+
+	# Finally, display the name of the algorithm and the 
+	# minimum time ittook to run
+	print(f"Algorithm: {algorithm}. Minimum execution time: {min(times)}")
 
 
 def bubble_sort(array):
@@ -52,4 +56,5 @@ if __name__ == "__main__":
 
 	# Call the function using the name of the sorting algoritm 
 	# and the array you just created
+	run_sorting_algorithm(algorithm="bubble_sort", array=array)
 	
