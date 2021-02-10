@@ -4,9 +4,6 @@ The Grandest Staircase Of Them All
 With the LAMBCHOP doomsday device finished, Commander Lambda is 
 preparing to debut on the galactic stage -- but in order to make
 a grand entrance, Lambda needs a grand staircase! 
- As the Commander's personal assistant, you've been tasked 
- with figuring out how to build the best staircase EVER. 
-
 Lambda has given you an overview of the types of bricks available, 
 plus a budget. You can buy different amounts of the different types 
 of bricks (for example, 3 little pink bricks, or 5 blue lace bricks). 
