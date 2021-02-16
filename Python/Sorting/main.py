@@ -61,7 +61,7 @@ def insertion_sort(array):
         
         j = i - 1
         
-        # Run throught the list of item (the left
+        # Run through the list of item (the left
         # portion of the array) and find the correct position
         # of the element referenced by 'key_item'. Do this only
         # if 'key_item is smaller than its adjacent values.
@@ -69,7 +69,13 @@ def insertion_sort(array):
             # Shift the value one position to the left
             # and reposition j to point to the next element
             # (from right to left)
-
+            array[j + 1] = array[j]
+            j -= 1
+            
+        # When you finish shifting the elements, you can position
+        # 'key_item' in its correct location
+        array[j + 1] = key_item
+    return array
 
 ARRAY_LENGTH = 10000
 
