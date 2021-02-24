@@ -1,4 +1,10 @@
 class Solution:
+    '''
+    >>>
+    >>>
+    >>>
+    
+    '''
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
         ans = 0
@@ -15,3 +21,5 @@ class Solution:
             mp[s[j]] = j + 1
 
         return ans
+    
+# python3 -m doctest longest_substring.py ~ to run doc test
