@@ -1,9 +1,8 @@
 class Solution:
     '''
-    >>>
-    >>>
-    >>>
-    
+    >>> ob1 = Solution()
+    >>> ob1.lengthOfLongestSubstring("ABCABCBB") 
+    3
     '''
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
@@ -21,5 +20,6 @@ class Solution:
             mp[s[j]] = j + 1
 
         return ans
+    
     
 # python3 -m doctest longest_substring.py ~ to run doc test
