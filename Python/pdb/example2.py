@@ -2,8 +2,9 @@
 
 import os
 
+
 def get_path(filename):
-    """Return file's path of empty string if no path."""
+    """Return file's path or empty string if no path."""
     head, tail = os.path.split(filename)
     import pdb; pdb.set_trace()
     return head
