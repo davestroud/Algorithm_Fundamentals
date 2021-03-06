@@ -8,3 +8,6 @@ def bubble_sort(items):
             if already_sorted:
                 break
     return items
+
+items = [1, 2, 5, 2, 3, 8, 1]
+print(bubble_sort(items))
