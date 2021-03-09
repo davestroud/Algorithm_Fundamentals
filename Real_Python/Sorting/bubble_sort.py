@@ -1,3 +1,6 @@
+from timing import timed_func
+
+@timed_func 
 def bubble_sort(items):
     for i in range(len(items)): # Iterate through whole list
         already_sorted = True # Set break condition
