@@ -1,4 +1,5 @@
 from timing import timed_func
+import random
 
 @timed_func 
 def bubble_sort(items):
@@ -12,5 +13,5 @@ def bubble_sort(items):
             break
     return items
 
-items = [1, 2, 5, 2, 3, 8, 1]
+items = [random.randint(1000) for _ in range(1000)]
 print(bubble_sort(items))
