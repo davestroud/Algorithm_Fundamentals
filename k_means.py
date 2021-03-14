@@ -27,7 +27,7 @@ for k in range(K):
 output={}
 
 # creating an empty array
-euclid=np.array([]).reshape(m,0)
+euclid = np.array([]).reshape(m,0)
 
 # finding distance between for each centroid
 for k in range(K):
@@ -40,17 +40,17 @@ minimum = np.argmin(euclid,axis=1)+1
 # computing the mean of separated clusters
 cent={}
 for k in range(K):
-    cent[k+1]=np.array([]).reshape(2,0)
+    cent[k+1] = np.array([]).reshape(2,0)
 
 # assigning of clusters to points
 for k in range(m):
-    cent[minimum[k]]=np.c_[cent[minimum[k]],X[k]]
+    cent[minimum[k]] = np.c_[cent[minimum[k]],X[k]]
 for k in range(K):
-    cent[k+1]=cent[k+1].T
+    cent[k+1] = cent[k+1].T
 
 # computing mean and updating it
 for k in range(K):
-     centroids[:,k]=np.mean(cent[k+1],axis=0)
+     centroids[:,k] = np.mean(cent[k+1],axis=0)
      
 # repeating the above steps again and again
 for i in range(n_iter):
