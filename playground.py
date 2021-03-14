@@ -73,3 +73,9 @@ for i in range(n_iter):
 plt.scatter(X[:,0],X[:,1])
 plt.rcParams.update({'figure.figsize':(10,7.5), 'figure.dpi':100})
 plt.title('Original Dataset')
+
+for k in range(K):
+    plt.scatter(final[k+1][:,0],final[k+1][:,1])
+plt.scatter(centroids[0,:],centroids[1,:],s=300,c='yellow')
+plt.rcParams.update({'figure.figsize':(10,7.5), 'figure.dpi':100})
+plt.show()
