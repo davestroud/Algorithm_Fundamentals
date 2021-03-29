@@ -15,6 +15,8 @@ n = X.shape[1]
 n_iter = 50 
 
 # compute the initial centroids randomly
+# generally, we should use the elbow method
+# to determine the amount of clusters
 K = 5 
 
 # creating an empty centroid array
