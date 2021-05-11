@@ -5,8 +5,8 @@ import math
 # Add any helper functions you may need here
 
 def rotationalCipher(input, rotation_factor):
+    pass
     
-
 
 
 
