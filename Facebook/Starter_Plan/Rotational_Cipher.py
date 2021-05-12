@@ -5,15 +5,16 @@ import math
 # Add any helper functions you may need here
 
 def rotationalCipher(input, rotation_factor):
-    result = ""
-    for i in range(len(input)):
-        char = input[i]
-        
-        if char.isupper():
-            result += chr((ord(char) + rotation_factor-65) % 26 + 65)
+    cipher = ''
+    for char in input:
+        if char == ' ':
+            cipher = cipher + char
+        elif char.isupper():
+            cipher = cipher + chr((ord(char) + rotation_factor - 65) % 26 + 65)
         else:
-            result += chr((ord(char) + rotation_factor - 97) % 26 + 87)
-    return result
+            cipher = cipher + chr((ord(char) + rotation_factor -97) % 26 + 97)
+    return cipher
+    
     
     
 # These are the tests we use to determine if the solution is correct.
