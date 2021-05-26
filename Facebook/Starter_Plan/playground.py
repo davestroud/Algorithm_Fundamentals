@@ -1,3 +1,5 @@
+
+#%%
 def encrypt(text,s):
     result = ""
    # transverse the plain text
@@ -11,10 +13,13 @@ def encrypt(text,s):
         else:
             result += chr((ord(char) + s - 97) % 26 + 97)
         return result
+#%%
 #check the above function
 text = "CEASER CIPHER DEMO"
 s = 4
 
+#%%
 print ("Plain Text : " + text)
 print ("Shift pattern : " + str(s))
 print ("Cipher: " + encrypt(text,s))
+# %%
